@@ -10,8 +10,8 @@ export default function Navigation() {
     }
     return (
         <div>
-            <nav style={{ backgroundColor: theme.backgroundColor, color: theme.color }}>
-                <ul>
+            <nav >
+                <ul style={{ backgroundColor: theme.backgroundColor, color: theme.color }}>
                     <li><a className='active' href='#home'>Home</a></li>
                     <li><a style={aStyle} href='#news'>News</a></li>
                     <li><a style={aStyle} href='#about'>About</a></li>
